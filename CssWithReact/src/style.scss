@@ -1,0 +1,37 @@
+$primary-color:grey;
+$border-color:rgba(155, 154, 154, 0.689);
+
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+figure{
+    display:flex;
+    margin:0;
+    max-width: 400px;
+    img {
+    max-height: 150px;
+    max-width: 150px;
+    border: 1px solid $border-color;
+    }
+    h4{
+        color:$primary-color;
+    }
+}
+
+.rate{
+    display: flex;
+   justify-content: space-around;
+    border-top: 1px solid $border-color;
+    
+    p{
+        color:$primary-color;
+    }
+    ul{
+        display: flex;
+    }
+    li{
+        padding-left: 5px;
+        list-style:none;
+    }
+}
